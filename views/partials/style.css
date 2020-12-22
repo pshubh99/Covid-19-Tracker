@@ -1,0 +1,98 @@
+.sectionLight{
+    background-color: #e9ecef;
+    padding: 2rem;
+}
+
+.fa{
+    margin: 0px 10px;
+    color: white;
+}
+.socialIcon{
+    display: block;
+    margin: auto;
+    color: white;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.textSize{
+    font-size: 1.25rem;
+}
+.color1{
+    background-color: #563d7c;
+    color: white;
+}
+.color2{
+    background-color: #b83227;
+    color: white;
+}
+.color3{
+    background-color: #2ecc72;
+    color: white;
+}
+.color4{
+    background-color: #26ae60;
+    color: white;
+}
+.number{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.column2{
+    width:25%;
+}
+.lastp{
+    margin-bottom: 0 !important;
+    font-weight: 200;
+}
+
+.states{
+    background-color: #e6ffe6;
+    font-weight: 400;
+}
+
+.active{
+    background-color: #e55959;
+    color: white;
+    font-weight: 400;
+}
+
+.confirmed{
+    background-color: #00bcd4;
+    color: white;
+    font-weight: 400;
+}
+
+.deaths{
+    background-color: #9e9e9e;
+    color: white;
+    font-weight: 400;
+}
+
+.recovered{
+    background-color: #00f;
+    color: white;
+    font-weight: 400;
+}
+
+
+@media (max-width: 767px) {
+    .container, .container-fluid, .row {
+      padding:0px;
+    }
+    .navbar-header {
+      margin:0px;
+    }
+    .sectionLight{
+        padding: 0px;
+    }
+    :not(footer) {
+        margin: auto 0 !important;
+        padding:auto 0 !important;
+    }
+    .time{
+        display:none;
+    }
+    .fa{
+        margin: 0px 8px !important;
+    }
+  }
